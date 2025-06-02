@@ -1,0 +1,19 @@
+[project]
+name = "openrouter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "RukhsarMalik", email = "103738665+RukhsarMalik@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.0.16",
+]
+
+[project.scripts]
+openrouter = "openrouter:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
